@@ -32,7 +32,22 @@ Add to your project's `.mcp.json`:
 
 ### Cursor
 
-Add to `~/.cursor/mcp.json`:
+Add to `.cursor/mcp.json` in your project root:
+
+```json
+{
+  "mcpServers": {
+    "techflow-docs": {
+      "command": "node",
+      "args": ["/path/to/techflow-docs-mcp/index.js"]
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add to `~/.codeium/windsurf/mcp_config.json`:
 
 ```json
 {
